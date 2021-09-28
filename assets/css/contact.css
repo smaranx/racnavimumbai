@@ -1,0 +1,112 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.contact4 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+.contact4 .font-weight-medium {
+  font-weight: 500;
+}
+
+.contact4 .form-control {
+  background: transparent;
+  border: 2px solid rgba(207, 207, 207, 0.5);
+}
+
+.contact4 .form-control:focus {
+  border-color: #525252;
+}
+
+.contact4 input::-webkit-input-placeholder,
+.contact4 textarea::-webkit-input-placeholder {
+  color: rgba(167, 167, 167, 0.7);
+}
+
+.contact4 input:-ms-input-placeholder,
+.contact4 textarea:-ms-input-placeholder {
+  color: rgba(165, 165, 165, 0.7);
+}
+
+.contact4 input::placeholder,
+.contact4 textarea::placeholder {
+  color: rgba(58, 58, 58, 0.7);
+}
+
+.contact4 .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.contact4.bg-info {
+  background-color: white !important;
+}
+
+.contact4 .text-inverse {
+  color: #3e4555 !important;
+}
+.btn {
+  border-color: #0990ca !important;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: #0990ca !important;
+  color: white !important;
+}
+/*Sections Header 👇 */
+.section-header h3 {
+  padding: 30px;
+  color: #111;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  padding-bottom: 15px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+.section-header h3::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+.section-header h3::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--primaryColor);
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+@media (min-width: 1024px) {
+  .contact4 .contact-box {
+    padding: 80px 105px 80px 0px;
+  }
+}
+
+@media (max-width: 767px) {
+  .contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .contact4 .right-image {
+    position: relative;
+    bottom: -95px;
+  }
+}

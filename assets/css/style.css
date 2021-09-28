@@ -413,10 +413,10 @@ div#preloader {
 }
 
 /*----------------------------------------------------------------------- 
-Start of Ways of help [*4]
+Start of thurst
 -------------------------------------------------------------------------*/
 .thurst-head h2 {
-  font-size: 15px;
+  font-size: 25px;
   font-weight: 600;
 }
 .thurst-section-content {
@@ -424,7 +424,7 @@ Start of Ways of help [*4]
 }
 .thurst-text-content p {
   color: #8d8d8d;
-  font-size: smaller;
+  font-size: large;
   text-align: left;
 }
 .thurst-pic-text {
@@ -461,6 +461,7 @@ Start of Ways of help [*4]
 /*----------------------------------------------------------------------- 
 End of thurst [*4]
 -------------------------------------------------------------------------*/
+/*--About us in aboutus.html*/
 
 /*----------------------------------------------------------------------- 
 Start of recent causes [*6]

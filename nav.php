@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Rotaract Club of Navi Mumbai</title>
-    <link rel="shortcut icon" href="assets/img/rcnbLogoWhite.png" />
+    <link rel="shortcut icon" href="images/rcnbLogoWhite.png" />
 
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -54,8 +54,8 @@
             <div class="header-top">
               <div class="head-top-info pull-left">
                 <ul class="top-info">
-                  <li class="ti-mobile">+91 9619947596</li>
-                  <li class="ti-email">contact@racnavimumbai.org</li>
+                  <li class="ti-mobile"> +91 9619947596</li>
+                  <li class="ti-email"> contact@racnavimumbai.org</li>
                 </ul>
               </div>
               <!-- /head-top-info -->
@@ -101,7 +101,7 @@
             <nav class="navbar">
               <!-- Brand and toggle get grouped for better mobile display -->
               <div class="navbar-header">
-                <a class="navbar-brand" href="home-1.html"
+                <a class="navbar-brand" href="index.php"
                   ><img src="assets/img/logoo.png" alt="image"
                 /></a>
               </div>
@@ -112,30 +112,30 @@
                 id="bs-example-navbar-collapse-1"
               >
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.php">Home</a></li>
                   <li>
-                    <a href="cause.html">About</a>
+                    <a href="">About</a>
                     <ul class="menu-dropdown">
-                      <li><a href="cause.html">Who we are</a></li>
-                      <li><a href="cause-single.html">Team 2021-22</a></li>
+                      <li><a href="about-us.php">Who we are</a></li>
+                      <li><a href="team.php">Team 2021-22</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a href="event.html">Club Projects</a>
+                    <a href="event.php">Club Projects</a>
                     <!--ul class="menu-dropdown">
                       <li><a href="event.html">Events</a></li>
                       <li><a href="event-single.html">Events Details</a></li>
                     </ul-->
                   </li>
                   <li>
-                    <a href="blog-archive.html">Blog</a>
+                    <a href="blog.php">Blog</a>
                     <!--ul class="menu-dropdown">
                       <li><a href="blog-archive.html">Blog Archive</a></li>
                       <li><a href="blog-single.html">Blog Details</a></li>
                     </ul-->
                   </li>
                   <li>
-                    <a href="#">Contact</a>
+                    <a href="contact.php">Contact</a>
                     <!--ul class="menu-dropdown">
                       <li><a href="contact.html">Contact</a></li>
                       <li><a href="404.html">404</a></li>
@@ -200,3 +200,4 @@
       </div>
       <!--/menu-bar  -->
     </header>
+  </body>
