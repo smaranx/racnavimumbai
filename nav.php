@@ -53,10 +53,10 @@
           <div class="row">
             <div class="header-top">
               <div class="head-top-info pull-left">
-                <ul class="top-info">
+                <!--ul class="top-info">
                   <li class="ti-mobile"> +91 9619947596</li>
                   <li class="ti-email"> contact@racnavimumbai.org</li>
-                </ul>
+                </!--ul-->
               </div>
               <!-- /head-top-info -->
               <div class="header-social pull-right">

@@ -79,8 +79,8 @@
               SEC-6, VASHI, NAVI MUMBAI<br>
               MAHARASHTRA - 400703 <br>
               INDIA <br>
-              <strong>Phone:</strong>  (022)27792854/27791662<br>
-              <strong>Email:</strong> contact@racnavimumbai.org<br>
+              <strong></strong> <br>
+              <strong></strong> <br>
             </p>
           </div>
            <div class="col-lg-3 col-md-6 footer-loaction">
