@@ -117,7 +117,7 @@
                     <a href="">About</a>
                     <ul class="menu-dropdown">
                       <li><a href="about-us.php">Who we are</a></li>
-                      <li><a href="team.php">Team 2021-22</a></li>
+                      <li><a href="#">Team 2021-22</a></li>
                     </ul>
                   </li>
                   <li>
