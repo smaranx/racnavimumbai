@@ -165,8 +165,8 @@
                       <h2 class="black" style="padding-top: 50px;">ENVIRONMENT PROTECTION</h2>
                     </div>
                   </div>
-                  <!-- /text -->
-                  <div class="hover-content">
+                  <!-- /text --->
+                  <!--div class="hover-content">
                     <div class="thurst-text-content">
                       <p>
                         Climate Change has become a major global challenge today
@@ -177,7 +177,7 @@
                         cause.
                       </p>
                     </div>
-                  </div>
+                  </!--div-->
                 </div>
               </div>
               <!-- /col-sm-3 -->
@@ -185,7 +185,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="thurst-pic-text text-center colmd3">
                   <div class="thurst-pic pb80">
-                    <img src="assets/img/help-2.png" alt="image" />
+                    <img src="images/edu.png" alt="image" />
                   </div>
                   <!-- /img -->
                   <div class="thurst-text">
@@ -206,7 +206,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="thurst-pic-text text-center colmd3">
                   <div class="thurst-pic pb80">
-                    <img src="assets/img/help-3.png" alt="image" />
+                    <img src="images/mh.png" alt="image" />
                   </div>
                   <!-- /img -->
                   <div class="thurst-text">
@@ -217,7 +217,7 @@
                   <!-- /text -->
                   <div class="hover-content">
                     <div class="thurst-text-content pb20">
-                      <p>
+                      <!--p>
                         There is no health without mental health. Your mental
                         health matters and we, here at Rotaract club of Navi
                         Mumbai, strongly advocate for it. We, the change makers
@@ -225,7 +225,7 @@
                         denying the stereotypes associated with disorders and
                         treatments. Help us make the world a safe space to talk,
                         to seek help and empathise.
-                      </p>
+                      </!--p-->
                     </div>
                   </div>
                 </div>
@@ -235,7 +235,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="thurst-pic-text text-center colmd3">
                   <div class="thurst-pic pb80">
-                    <img src="assets/img/help-4.png" alt="image" />
+                    <img src="images/br.png" alt="image" />
                   </div>
                   <!-- /img -->
                   <div class="thurst-text">
@@ -246,7 +246,7 @@
                   <!-- /text -->
                   <div class="hover-content">
                     <div class="thurst-text-content pb20">
-                      <p>
+                      <!--p>
                         Rotaract club of Navi Mumbai is a part of one of the
                         largest youth organisations. Taking strides towards
                         being a credible brand and increasing our brand value is
@@ -255,7 +255,7 @@
                         welcome all brands, big or small to join us and help us
                         create the change we wish to. Partnership is our strong
                         suit!
-                      </p>
+                      </!--p-->
                     </div>
                   </div>
                 </div>
@@ -289,7 +289,7 @@
                   </div>
                   <div class="section-title-text-1 text-left">
                     <p>
-                      In the history of 40 years, Rotaract club of Navi Mumbai
+                      In the year 2020, Rotaract club of Navi Mumbai
                       accomplished many outstading feats in the vaious feilds
                       and sectors.
                     </p>
@@ -415,10 +415,10 @@
         <div class="row section-content">
           <div class="section-title text-center">
             <div class="section-title-text text-uppercase">
-              <p>YOU MIGHT INTEREST</p>
+              <p>YOU MIGHT INTEREST IN</p>
             </div>
             <div class="section-title-text">
-              <h2>What Can We Do</h2>
+              <h2>What We Do</h2>
             </div>
           </div>
           <!-- /section-title -->
@@ -432,17 +432,8 @@
                   </div>
                   <div class="we-can-do-text">
                     <h3 class="we-can-do-head red">
-                      <a href="#">Croud Funding</a>
+                      <a href="#">Raise Funds</a>
                     </h3>
-                  </div>
-                  <div class="hide-icon">
-                    <span class="red ti-crown"></span>
-                  </div>
-                  <div class="hide-text text-left">
-                    <p>
-                      Modi tempora incidunt ut labore et dolore magnam
-                      voluptatem...
-                    </p>
                   </div>
                 </div>
               </div>
@@ -458,15 +449,6 @@
                       <a href="#">Make Donation</a>
                     </h3>
                   </div>
-                  <div class="hide-icon">
-                    <span class="red ti-heart"></span>
-                  </div>
-                  <div class="hide-text text-left">
-                    <p>
-                      Modi tempora incidunt ut labore et dolore magnam
-                      voluptatem...
-                    </p>
-                  </div>
                 </div>
               </div>
               <!-- /col-md-3 -->
@@ -480,15 +462,6 @@
                     <h3 class="we-can-do-head red">
                       <a href="#">Medical Support</a>
                     </h3>
-                  </div>
-                  <div class="hide-icon">
-                    <span class="red ti-support"></span>
-                  </div>
-                  <div class="hide-text text-left">
-                    <p>
-                      Modi tempora incidunt ut labore et dolore magnam
-                      voluptatem...
-                    </p>
                   </div>
                 </div>
               </div>
@@ -504,15 +477,6 @@
                       <a href="#">Education Fund</a>
                     </h3>
                   </div>
-                  <div class="hide-icon">
-                    <span class="red ti-book"></span>
-                  </div>
-                  <div class="hide-text text-left">
-                    <p>
-                      Modi tempora incidunt ut labore et dolore magnam
-                      voluptatem...
-                    </p>
-                  </div>
                 </div>
               </div>
               <!-- /col-md-3 -->
@@ -527,15 +491,9 @@
                       <a href="#">Event Organize</a>
                     </h3>
                   </div>
-                  <div class="hide-icon">
+                  <!--div class="hide-icon">
                     <span class="red ti-timer"></span>
-                  </div>
-                  <div class="hide-text text-left">
-                    <p>
-                      Modi tempora incidunt ut labore et dolore magnam
-                      voluptatem...
-                    </p>
-                  </div>
+                  </!--div-->
                 </div>
               </div>
               <!-- /col-md-3 -->
@@ -549,15 +507,6 @@
                     <h3 class="we-can-do-head red">
                       <a href="#">Help Disability</a>
                     </h3>
-                  </div>
-                  <div class="hide-icon">
-                    <span class="red ti-wheelchair"></span>
-                  </div>
-                  <div class="hide-text text-left">
-                    <p>
-                      Modi tempora incidunt ut labore et dolore magnam
-                      voluptatem...
-                    </p>
                   </div>
                 </div>
               </div>
@@ -573,15 +522,6 @@
                       <a href="#">Blood Donation</a>
                     </h3>
                   </div>
-                  <div class="hide-icon">
-                    <span class="red ti-paint-bucket"></span>
-                  </div>
-                  <div class="hide-text text-left">
-                    <p>
-                      Modi tempora incidunt ut labore et dolore magnam
-                      voluptatem...
-                    </p>
-                  </div>
                 </div>
               </div>
               <!-- /col-md-3 -->
@@ -596,15 +536,15 @@
                       <a href="#">Gift Collection</a>
                     </h3>
                   </div>
-                  <div class="hide-icon">
+                  <!--div class="hide-icon">
                     <span class="red ti-gift"></span>
-                  </div>
-                  <div class="hide-text text-left">
+                  </!--div--->
+                  <!--div class="hide-text text-left">
                     <p>
                       Modi tempora incidunt ut labore et dolore magnam
                       voluptatem...
                     </p>
-                  </div>
+                  </!div-->
                 </div>
               </div>
               <!-- /col-md-3 -->

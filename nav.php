@@ -117,7 +117,7 @@
                     <a href="">About</a>
                     <ul class="menu-dropdown">
                       <li><a href="about-us.php">Who we are</a></li>
-                      <li><a href="#">Team 2021-22</a></li>
+                      <!--li><a href="#">Team 2021-22</a></!--li-->
                     </ul>
                   </li>
                   <li>
@@ -176,12 +176,12 @@
                 </div>
                 <div class="moduletable_menu">
                   <ul class="nav menu">
-                    <li><a href="home-1.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="about-us.html">Team 2021-22</a></li>
-                    <li><a href="event.html">Club Projects</a></li>
-                    <li><a href="blog-archive.html">Blog</a></li>
-                    <li><a href="contact.html">Contacts</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about-us.php">About Us</a></li>
+                    <!--li><a href="about-us.html">Team 2021-22</a></!--li-->
+                    <li><a href="event.php">Club Projects</a></li>
+                    <li><a href="blog.php">Blog</a></li>
+                    <li><a href="contact.php">Contacts</a></li>
                     <!--li><a href="blog-single.html">Blog Single</a></li-->
                     <!--li><a href="cause.html">Club Projects</a></li>
                     <li><a href="cause-single.html">Cause Details</a></li>

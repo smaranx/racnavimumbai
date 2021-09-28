@@ -95,8 +95,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; <strong>Rotaract Club of Navi Mumbai</strong>. All Rights Reserved <br>
-        <a href="">Developed by <strong><i>Smaran Ummadishetty</i></strong></a>
+        &copy; <strong>Rotaract Club of Navi Mumbai</strong>. All Rights Reserved
       </div>
     </div>
   </footer>
