@@ -1025,21 +1025,12 @@ ul {
                             </div>
                         </div>
                     </div>
-
-
-
-
-                
                 </div>
         </div>
     </section>
-
-          <?php
+<!--footer-->
+    <?php
      include("footer.php"); 
-    ?> 
-	
-
-
-    
+    ?>    
 </body> 
 </html>
