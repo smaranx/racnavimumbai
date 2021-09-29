@@ -84,7 +84,7 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
-            <a href="images/events/aan.JPG"><img src="images/events/aan.JPG" class="img-responsive"></a>
+            <a href=""><img src="images/events/aen.JPG" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
