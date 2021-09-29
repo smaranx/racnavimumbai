@@ -31,21 +31,10 @@
     <?php
      include("nav.php"); 
     ?>
+<!--Start of blog-->
 
 
-<div class=" ti-align-center">
-           <center> <lottie-player
-              src="https://assets7.lottiefiles.com/packages/lf20_jYTS0r.json"
-              speed="1"
-              style="width: 1000px; height: 1000px"
-              loop
-              autoplay
-            >
-            </lottie-player></center>
-          </div>
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 
-          
     <!-- Start of footer section
 	============================================= -->
     <?php

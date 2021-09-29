@@ -9,21 +9,252 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- css-include -->
-
+  <link rel="stylesheet" href="https://demo.voidcoders.com/htmldemo/fitgear/main-files/assets/css/animate.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- boorstrap -->
 	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 	<!-- style -->
 	<link rel="stylesheet" type="text/css" href="assets/css/team.css">
-   
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 <!-- /end of head -->
 
 <body>
+<style>
 
+section {
+    padding: 60px 0;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.img-fluid{
+    width: 350px;
+    height: 450px;
+}
+.info{
+    width: 350px;
+}
+.site-heading h2 {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.site-heading h2 span {
+  color: #ff5a6e;
+}
+
+.site-heading h4 {
+  display: inline-block;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+
+.site-heading h4::before {
+  background: #ff5a6e none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+}
+
+.site-heading h2 span {
+  color: #ff5a6e;
+}
+
+.site-heading {
+  margin-bottom: 60px;
+  overflow: hidden;
+  margin-top: -5px;
+}
+
+.team-area .single-item {
+  margin-bottom: 30px;
+}
+
+.team-area .item .thumb {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.team-area .item .thumb::after {
+  background: #232323 none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  width: 100%;
+}
+
+.team-area .team-items .item:hover .thumb::after {
+  opacity: 0.7;
+}
+
+.team-area .item .thumb .overlay {
+  top: -100%;
+  left: 0;
+  padding: 20px;
+  position: absolute;
+  text-align: center;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+  width: 100%;
+  z-index: 1;
+}
+
+.team-area .item:hover .thumb .overlay {
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+.team-area .item .thumb .overlay p {
+  color: #ffffff;
+}
+
+.team-area .item .thumb .overlay h4 {
+  color: #ffffff;
+  display: inline-block;
+  position: relative;
+  text-transform: uppercase;
+}
+
+.team-area .item .thumb img {
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  transition: all 0.35s ease-in-out;
+}
+
+.team-area .item:hover .thumb img {
+  opacity: .6;
+}
+
+.team-area .item .thumb .social li {
+  display: inline-block;
+}
+
+.team-area .item .thumb .social li a {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin: 0 2px;
+  text-align: center;
+  width: 40px;
+}
+
+.team-area .info {
+  background: #ffffff none repeat scroll 0 0;
+  -moz-box-shadow: 0 0 10px #cccccc;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+  -o-box-shadow: 0 0 10px #cccccc;
+  box-shadow: 0 0 10px #cccccc;
+  padding: 40px 20px 20px;
+  position: relative;
+  text-align: center;
+  z-index: 9;
+}
+
+.team-area .info .message {
+  height: 50px;
+  line-height: 40px;
+  margin-left: -25px;
+  margin-top: -25px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 50px;
+}
+
+.team-area .info .message a {
+  background: #fff none repeat scroll 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -moz-box-shadow: 0 0 10px #cccccc;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+  -o-box-shadow: 0 0 10px #cccccc;
+  box-shadow: 0 0 10px #cccccc;
+  box-sizing: border-box;
+  color: #ff5a6e;
+  display: inline-block;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  width: 50px;
+}
+
+.team-area .info .message a i {
+  font-weight: 500;
+}
+
+.team-area .info h4 {
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+}
+
+.team-area .info span {
+  color: #ff5a6e;
+  font-family: "Poppins",sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.team-area .social li.twitter a {
+  background-color: #00b6f1;
+}
+
+.team-area .social li.pinterest a {
+  background-color: #bd081c;
+}
+
+.team-area .social li.facebook a {
+  background-color: #3b5998;
+}
+
+.team-area .social li.google-plus a {
+  background-color: #df4a32;
+}
+
+.team-area .social li.vimeo a {
+  background-color: #1ab7ea;
+}
+
+.team-area .social li.instagram a {
+  background-color: #cd486b;
+}
+</style>
 <!--div id="preloader"></div-->
 
 <!-- Nav Bar Loading -->
@@ -33,712 +264,569 @@
     ?> 
 
 <!--About us-->
-
-	<!-- Team section>
-    <section class="team-page-section">
-            <div class="container">
-                <div class="row clearfix justify-content-center">
-    
-                    <Team Block Amarjeet>
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://instagram.com/shubhangisoni.1603"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://linkedin.com/in/shubhangi-soni"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://www.facebook.com/shubhangi.soni.568"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/shubhangi.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtn.Rtr.Amarjeet Chauhan </a></h3>
-                                <div class="designation">President </div>
-                            </div>
-                        </div>
+<section id="team" class="team-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="site-heading text-center">
+                        <h2>Our <span>Team</span></h2>
+                        <h4>Meet our awesome and expert team members</h4>
                     </div>
-                    <Team Block sharmeen >
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://instagram.com/sharmeeeennn?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="https://www.linkedin.com/in/sharmeen-nayakavadi-30888b1aa"><i class="fa fa-linkedin"></i></a></li><br>
-                                <--li><a href="#"><i class="fa fa-facebook"></i></a></li->
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/sharmeen.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr. Sharmeen Nayakavadi </a></h3>
-                                <div class="designation">Secretary </div>
-                            </div>
-                        </div>
-                    </div>
-                    < Team Block shreya>
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr. Shreya Patil</a></h3>
-                                <div class="designation">Joint Secretary</div>
-                            </div>
-                        </div>
-                    </div>
-                    <Team Block Prem >
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://instagram.com/divyarani__?igshid=psps3uyuchqr"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/divyarani-sishtla-1830a5147"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://www.facebook.com/profile.php?id=100026837974710"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/divya.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Prem Shanti Thangaraj Nadar</a></h3>
-                                <div class="designation">Vice President</div>
-                            </div>
-                        </div>
-                    </div>
-                    <Team Block Amarjaa>
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_amarja"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="https://www.linkedin.com/in/amarja-pawar"><i class="fa fa-linkedin"></i></a></li><br>
-                                <-li><a href=""><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/amarjaa.jpeg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Amarjaa Pawar </a></h3>
-                                <div class="designation">Vice President</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!Team Block Isha ->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://instagram.com/_ishajainn?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="http://linkedin.com/in/isha-jain-8836301a0"><i class="fa fa-linkedin"></i></a></li><br>
-                                <li><a href="https://www.facebook.com/isha.jain.5243817"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/isha.jpeg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Isha Jain</a></h3>
-                                <div class="designation">Chairwomen TRS</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-Team block Zunaira->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/srijansahaa/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/srijan-saha/"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://www.behance.net/srijan-saha"><i class="fa fa-behance"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/srijan.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#"> Srijan Saha</a></h3>
-                                <div class="designation">Director of Media and Content </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!- Team Block Pratiksha ->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/hritik_bhandari"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/hritikbhandari/"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://github.com/hritikbhandari"><i class="fa fa-github"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/hritik.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Hritik Bhandari</a></h3>
-                                <div class="designation">Director of Public Relations </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!- Team Block Abbas->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/mitraj-kher-7b6019169"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/mitraj.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Mitraj Kher </a></h3>
-                                <div class="designation">Director of Media and Editorial </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team block Sairaj->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/nandita.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Nandita Mishra</a></h3>
-                                <div class="designation">Director of International Service </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!- Team Block Megha->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/megha__menon/?hl=en"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="https://www.linkedin.com/in/megha-menon/"><i class="fa fa-linkedin"></i></a></li><br>
-                                <li><a href="https://www.instagram.com/megha__menon/?hl=en"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/megha.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Megha Menon </a></h3>
-                                <div class="designation">Club Mentor</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!- Team Block Kingshuk ->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://instagram.com/iamkingshuk_?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="https://www.linkedin.com/in/kingshuk-mazumder-5683b9195"><i class="fa fa-linkedin"></i></a></li><br>
-                                <li><a href="https://www.facebook.com/kingshuk.mazumder.9"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/bansri.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Kingshuk Mazumder</a></h3>
-                                <div class="designation">Zonal Rotaract Representative</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block Riya K->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="https://www.facebook.com/profile.php?id=100009830343172"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/lakshana.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Lakshana Saravanan </a></h3>
-                                <div class="designation">Director of Professional Service </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-Team block Neetish->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/Nishant_jindal1193/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/nishant-jindal-69ba6b194"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/nishant.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#"> Nishant Jindal</a></h3>
-                                <div class="designation">Director of End Polio</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!- Team Block Raashi->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://instagram.com/siddharth_hunk_?igshid=s4973lu9s8n7"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/siddharth-misra-06150918b"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/siddhart.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Siddharth Misra </a></h3>
-                                <div class="designation">Director of Foundation </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!- Team Block Sandhya->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://instagram.com/sandhyagupta159?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="https://www.linkedin.com/in/sandhya-gupta-804995192"><i class="fa fa-linkedin"></i></a></li><br>
-                                <li><a href="https://www.facebook.com/profile.php?id=100008043151925"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/sandhya.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Sandhya Gupta</a></h3>
-                                <div class="designation">Director of Community Services</div>
-                            </div>
-                        </div>
-                    </div>
-                    <--team block simran->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/___.simmie.___?r=nametag"><i class="fa fa-instagram"></i></a></li><br>
-                                <!-li><a href=""><i class="fa fa-linkedin"></i></a><li->
-                                <li><a href="https://www.facebook.com/smoka.simi"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/simran.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Simran Arora</a></h3>
-                                <div class="designation">Director of Community Services</div>
-                            </div>
-                        </div>
-                    </div>
-                    <- Team Block Rutika->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="http://instagram.com/rutikadethe"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="https://www.linkedin.com/in/rutika-dethe-4734581b3"><i class="fa fa-linkedin"></i></a></li><br>
-                                <li><a href="https://www.facebook.com/rutika.dethe.96"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/rutika.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Rutika Dethe</a></h3>
-                                <div class="designation">Director of Professional Development</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!- Team Block Bansri->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://instagram.com/bansrishah_03?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li><br>
-                                <li><a href="https://www.facebook.com/bansri.shah.581"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/bansri.webp" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Bansri Shah</a></h3>
-                                <div class="designation">Director of Professional Development</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block Sonia->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_ankushbabu_/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/ankush.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Ankush Babu </a></h3>
-                                <div class="designation">Assistant Treasurer </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block Sakshi->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_ankushbabu_/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/ankush.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Ankush Babu </a></h3>
-                                <div class="designation">Assistant Treasurer </div>
-                            </div>
-                        </div>
-                    </div>
-                    <--team Block zen->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_ankushbabu_/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/ankush.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Ankush Babu </a></h3>
-                                <div class="designation">Assistant Treasurer </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block raxx->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/raowl_27/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="www.linkedin.com/in/rahul-gupta-677a401b3"><i class="fa fa-linkedin"></i></a></li><br>
-                                <li><a href="https://www.facebook.com/raowl.27/"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/raxx.jpeg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Rahul Gupta</a></h3>
-                                <div class="designation">Director of Sports</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block minal->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_ankushbabu_/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/ankush.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Ankush Babu </a></h3>
-                                <div class="designation">Assistant Treasurer </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block aditi->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_ankushbabu_/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/ankush.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Ankush Babu </a></h3>
-                                <div class="designation">Assistant Treasurer </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block riddhi->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_ankushbabu_/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/ankush.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Ankush Babu </a></h3>
-                                <div class="designation">Assistant Treasurer </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block dang->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://instagram.com/itsanjalidang?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li><br>
-                                <li><a href="https://www.facebook.com/anjali.dang.1422"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/dang.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Anjali Dang</a></h3>
-                                <div class="designation">Director of PR & Marketing</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block anjali->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_ankushbabu_/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/ankush.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Ankush Babu </a></h3>
-                                <div class="designation">Assistant Treasurer </div>
-                            </div>
-                        </div>
-                    </div>
-                    <--team Block adeeba->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://instagram.com/__the__silent__girl?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li><br>
-                                <--li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li->
-                                <li><a href="https://www.facebook.com/adeeba.allabax"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/adeeba.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Adeeba Samsuddin Allabax</a></h3>
-                                <div class="designation">Director of Editorials</div>
-                            </div>
-                        </div>
-                    </div>
-                    <-team Block krishna->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_ankushbabu_/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/ankush.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Ankush Babu </a></h3>
-                                <div class="designation">Assistant Treasurer </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block smaran->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/smarxn/"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="https://www.linkedin.com/in/smaran-ummadishetty-24905717b/"><i class="fa fa-linkedin"></i></a></li><br>
-                                <li><a href="https://www.facebook.com/smaran.ummadishetty/"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/smaran.jpeg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Smaran Ummadishetty</a></h3>
-                                <div class="designation">Director of Creatives</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block Sadiya->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_ankushbabu_/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/ankush.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Ankush Babu </a></h3>
-                                <div class="designation">Assistant Treasurer </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block raksha->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/ofcourse.cute"><i class="fa fa-instagram"></i></a></li><br>
-                                <li><a href="https://www.linkedin.com/in/raksha-patel-56773a154"><i class="fa fa-linkedin"></i></a></li><br>
-                                <li><a href="https://www.facebook.com/raksha.patel.12139862"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/raksha.jpeg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Raksha Patel</a></h3>
-                                <div class="designation">Director of Social Media</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-team Block sharvary->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/iam_sharvary"><i class="fa fa-instagram"></i></a></li><br>
-                                <!-li><a href=""><i class="fa fa-linkedin"></i></a></li->
-                                <li><a href="https://www.facebook.com/sharvary.rahatade"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./images/team/sharvary.jpg" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Rtr.Sharvary Rahatade</a></h3>
-                                <div class="designation">Zonal Co-ordinator</div>
-                            </div>
-                        </div>
-                    </div>
-                    <-team Block ninad->
-                    <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
-                        <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                            <ul class="social-icons">
-                                <li><a href="https://www.instagram.com/_ankushbabu_/"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-    
-                                
-                            </ul>
-                            <div class="image">
-                                <a href="#"><img src="./Images/team/ankush.png" alt="" /></a>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Ankush Babu </a></h3>
-                                <div class="designation">Assistant Treasurer </div>
-                            </div>
-                        </div>
-                    </div>
-    
                 </div>
             </div>
-        </section-->
-        
-<div class=" ti-align-center ml-auto">
-           <center> <lottie-player
-              src="https://assets7.lottiefiles.com/packages/lf20_jYTS0r.json"
-              speed="1"
-              style="width: 1000px; height: 1000px;"
-              loop
-              autoplay
-            >
-            </lottie-player></center>
-          </div>
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                <div class="row team-items">
+                    <!--president-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/amarjeet.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/amarjeetchauhan19"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/born_civilengineer?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/amarjeet-chauhan-24191a13a"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtn. Rtr.Amarjeet Chauhan</h4>
+                                <span>President</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--secratery-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/sharmeen.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href=""><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/sharmeeeennn?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/sharmeen-nayakavadi-30888b1aa"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Sharmeen Nayakavadi</h4>
+                                <span>Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--jt.secratery-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/shreya.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/shreya.pp"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Shreya Patil</h4>
+                                <span>Jt.Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--vice president-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/prem.webp" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://m.facebook.com/prem.nadar.35"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/pstnadar005"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/pst-nadar-47593155"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Prem Nadar</h4>
+                                <span>Vice President</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--vide president-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/amarjaa.jpeg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/-amarja"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/amarja-pawar"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Amarjaa Pawar</h4>
+                                <span>Vice President</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--club mentor-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/megha.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/megha.menon.248"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://www.instagram.com/megha__menon/?hl=en"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/megha-menon/"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Megha Menon</h4>
+                                <span>Club Mentor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--trs chairwomen-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/isha.jpeg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/isha.jain.5243817"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/_ishajainn?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="http://linkedin.com/in/isha-jain-8836301a0"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Isha Jain</h4>
+                                <span>TRS Chairwomen</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--trs chairwomen-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/zunaira.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://m.facebook.com/profile.php?ref=bookmarks"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/zunindenial?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Zunaira Dongre</h4>
+                                <span>TRS Chairwomen</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--zrr-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/kingshuk.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/kingshuk.mazumder.9"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/iamkingshuk_?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/kingshuk-mazumder-5683b9195"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Kingshuk Mazumder</h4>
+                                <span>Zonal Rotaract Representative</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--community service-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/sandhya.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/sandhyagupta159?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/sandhya-gupta-804995192"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Sandhya Gupta</h4>
+                                <span>Director of Community Services</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--community services-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/simran.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/smoka.simi"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://www.instagram.com/___.simmie.___?r=nametag"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/simran-arora-hr"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Simran Gupta</h4>
+                                <span>Director of Community Services</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ED-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/sakshi.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/sakshi.salekar"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/sakshisalekar.19?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/sakshi-salekar-aa80081b4"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Sakshi Salekar</h4>
+                                <span>Director of Entrepreneurship Development </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--PD-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/rutika.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/rutika.dethe.96"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="http://instagram.com/rutikadethe"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/rutika-dethe-4734581b3"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Rutika Dethe</h4>
+                                <span>Director of Professional Development </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--PD-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/bansri.webp" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/bansri.shah.581"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/bansrishah_03?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Bansri Shah</h4>
+                                <span>Director of Professional Development </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ISD-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/aditi.jpeg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/profile.php?id=100067549206397"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/adxti.10?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/aditi-mishra-538a1b210"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Aditi Mishra</h4>
+                                <span>Director of International<br>Services </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--sports-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/raxx.jpeg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/raowl.27/"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://www.instagram.com/raowl_27/"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/rahul-gupta-677a401b3"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Rahul Gupta (Raxx)</h4>
+                                <span>Director of Sports</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--sports-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/zen.jpeg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/profile.php?id=100007748434590"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/rahxl.11_?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Rahul Gupta (Zen)</h4>
+                                <span>Director of Sports</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--prm-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/dang.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/anjali.dang.1422"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/itsanjalidang?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Anjali Dang</h4>
+                                <span>Director of PR & Marketing</span>
+                            </div>
+                        </div>
+                    </div>
 
+
+                
+                </div>
+        </div>
+    </section>
 
           <?php
      include("footer.php"); 
     ?> 
 	
 
-
-	<!-- js -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="./JS/home.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
-
-
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS (Load Extensions only on Local File Systems !
-    The following part can be removed on Server for On Demand Loading) -->
 
     
 </body> 
