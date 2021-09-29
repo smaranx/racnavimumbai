@@ -131,7 +131,7 @@
             development projects, Rotaract Club of New Bombay has been the
             fulcrum of new and innovative ideas.
           </p>
-          <a href="#" style="color: blue">Read More...</a>
+          <a href="about-us.php" style="color: blue">Read More...</a>
         </div>
       </div>
     </div>
