@@ -42,14 +42,14 @@
   <div class="container">
     <div id="image-gallery">
       <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
+        <!--div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
             <a href="images/events/gullak.jpg"><img src="images/events/gullak.jpg" class="img-responsive"></a>
             <div class="img-overlay">
               <i class="fa fa-plus-circle" aria-hidden="true"></i>
             </div>
           </div>
-        </div>
+        </!--div-->
         <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12 image">
           <div class="img-wrapper">
             <a href="images/events/eco.JPG"><img src="images/events/eco.JPG" class="img-responsive"></a>
