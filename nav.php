@@ -117,7 +117,7 @@
                     <a href="">About</a>
                     <ul class="menu-dropdown">
                       <li><a href="about-us.php">Who we are</a></li>
-                      <!--li><a href="#">Team 2021-22</a></!--li-->
+                      <li><a href="team.php">Team 2021-22</a></li>
                     </ul>
                   </li>
                   <li>
@@ -146,7 +146,7 @@
               </div>
               <!-- /.navbar-collapse -->
               <div class="home-donate donate-btn-1 text-uppercase">
-                <a href="donation.html">donate now</a>
+                <a href="donate.php">donate now</a>
               </div>
               <!--div id="sb-search" class="sb-search">
                     

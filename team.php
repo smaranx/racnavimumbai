@@ -34,12 +34,12 @@
 
 <!--About us-->
 
-	<!-- Team section -->
+	<!-- Team section>
     <section class="team-page-section">
             <div class="container">
                 <div class="row clearfix justify-content-center">
     
-                    <!-- Team Block Amarjeet-->
+                    <Team Block Amarjeet>
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -58,13 +58,13 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block sharmeen -->
+                    <Team Block sharmeen >
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
                                 <li><a href="https://instagram.com/sharmeeeennn?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li><br>
                                 <li><a href="https://www.linkedin.com/in/sharmeen-nayakavadi-30888b1aa"><i class="fa fa-linkedin"></i></a></li><br>
-                                <!--li><a href="#"><i class="fa fa-facebook"></i></a></li-->
+                                <--li><a href="#"><i class="fa fa-facebook"></i></a></li->
                             </ul>
                             <div class="image">
                                 <a href="#"><img src="./images/team/sharmeen.jpg" alt="" /></a>
@@ -75,7 +75,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block shreya -->
+                    < Team Block shreya>
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -94,7 +94,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Prem -->
+                    <Team Block Prem >
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -113,13 +113,13 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Amarjaa-->
+                    <Team Block Amarjaa>
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
                                 <li><a href="https://www.instagram.com/_amarja"><i class="fa fa-instagram"></i></a></li><br>
                                 <li><a href="https://www.linkedin.com/in/amarja-pawar"><i class="fa fa-linkedin"></i></a></li><br>
-                                <!--li><a href=""><i class="fa fa-facebook"></i></a></li-->
+                                <-li><a href=""><i class="fa fa-facebook"></i></a></li>
     
                                 
                             </ul>
@@ -132,7 +132,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Isha -->
+                    <!Team Block Isha ->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -151,7 +151,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--Team block Zunaira-->
+                    <!-Team block Zunaira->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -170,7 +170,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Pratiksha -->
+                    <!- Team Block Pratiksha ->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -189,7 +189,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Abbas-->
+                    <!- Team Block Abbas->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -208,7 +208,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team block Sairaj-->
+                    <!-team block Sairaj->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -227,7 +227,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Megha-->
+                    <!- Team Block Megha->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -246,7 +246,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Kingshuk -->
+                    <!- Team Block Kingshuk ->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -265,7 +265,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block Riya K-->
+                    <!-team Block Riya K->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -284,7 +284,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--Team block Neetish-->
+                    <!-Team block Neetish->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -303,7 +303,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Raashi-->
+                    <!- Team Block Raashi->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -322,7 +322,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Sandhya-->
+                    <!- Team Block Sandhya->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -341,12 +341,12 @@
                             </div>
                         </div>
                     </div>
-                    <!--team block simran-->
+                    <--team block simran->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
                                 <li><a href="https://www.instagram.com/___.simmie.___?r=nametag"><i class="fa fa-instagram"></i></a></li><br>
-                                <!--li><a href=""><i class="fa fa-linkedin"></i></a><li-->
+                                <!-li><a href=""><i class="fa fa-linkedin"></i></a><li->
                                 <li><a href="https://www.facebook.com/smoka.simi"><i class="fa fa-facebook"></i></a></li>
     
                                 
@@ -360,7 +360,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Rutika-->
+                    <- Team Block Rutika->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-right" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -379,7 +379,7 @@
                             </div>
                         </div>
                     </div>
-                    <!-- Team Block Bansri-->
+                    <!- Team Block Bansri->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -398,7 +398,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block Sonia-->
+                    <!-team Block Sonia->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -417,7 +417,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block Sakshi-->
+                    <!-team Block Sakshi->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -436,7 +436,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block zen-->
+                    <--team Block zen->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -455,7 +455,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block raxx-->
+                    <!-team Block raxx->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -474,7 +474,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block minal-->
+                    <!-team Block minal->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -493,7 +493,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block aditi-->
+                    <!-team Block aditi->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -512,7 +512,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block riddhi-->
+                    <!-team Block riddhi->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -531,7 +531,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block dang-->
+                    <!-team Block dang->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -550,7 +550,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block anjali-->
+                    <!-team Block anjali->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -569,12 +569,12 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block adeeba-->
+                    <--team Block adeeba->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
                                 <li><a href="https://instagram.com/__the__silent__girl?utm_medium=copy_link"><i class="fa fa-instagram"></i></a></li><br>
-                                <!--li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li-->
+                                <--li><a href="http://www.linkedin.com/in/ankush-babu-07"><i class="fa fa-linkedin"></i></a></li->
                                 <li><a href="https://www.facebook.com/adeeba.allabax"><i class="fa fa-facebook"></i></a></li>
     
                                 
@@ -588,7 +588,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block krishna-->
+                    <-team Block krishna->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -607,7 +607,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block smaran-->
+                    <!-team Block smaran->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -626,7 +626,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block Sadiya-->
+                    <!-team Block Sadiya->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -645,7 +645,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block raksha-->
+                    <!-team Block raksha->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -664,12 +664,12 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block sharvary-->
+                    <!-team Block sharvary->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
                                 <li><a href="https://www.instagram.com/iam_sharvary"><i class="fa fa-instagram"></i></a></li><br>
-                                <!--li><a href=""><i class="fa fa-linkedin"></i></a></li-->
+                                <!-li><a href=""><i class="fa fa-linkedin"></i></a></li->
                                 <li><a href="https://www.facebook.com/sharvary.rahatade"><i class="fa fa-facebook"></i></a></li>
     
                                 
@@ -683,7 +683,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--team Block ninad-->
+                    <-team Block ninad->
                     <div class="team-block col-lg-4 col-md-6 col-sm-12" data-aos="flip-left" data-aos-duration="2000">
                         <div class="inner-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                             <ul class="social-icons">
@@ -705,7 +705,24 @@
     
                 </div>
             </div>
-        </section>
+        </section-->
+        
+<div class=" ti-align-center ml-auto">
+           <center> <lottie-player
+              src="https://assets7.lottiefiles.com/packages/lf20_jYTS0r.json"
+              speed="1"
+              style="width: 1000px; height: 1000px"
+              loop
+              autoplay
+            >
+            </lottie-player></center>
+          </div>
+          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+
+          <?php
+     include("footer.php"); 
+    ?> 
 	
 
 
