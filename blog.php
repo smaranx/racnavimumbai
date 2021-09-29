@@ -33,7 +33,7 @@
     ?>
 
 
-<div class=" ti-align-center ml-auto">
+<div class=" ti-align-center">
            <center> <lottie-player
               src="https://assets7.lottiefiles.com/packages/lf20_jYTS0r.json"
               speed="1"
