@@ -815,6 +815,218 @@ ul {
                             </div>
                         </div>
                     </div>
+                    <!--editorials-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/adeeba.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/adeeba.allabax"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/__the__silent__girl?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Adeeba Allabax</h4>
+                                <span>Director of Editorials</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--editorials-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/anjali.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/anjalikaldate_?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Anjali Kaldate</h4>
+                                <span>Director of Editorials</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--creatives-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/krishna.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/profile.php?id=100015357048511"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/krishna_agrawal_ak"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/krishna-agrawal-8206b8221"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Krishna Agarwal</h4>
+                                <span>Director of Creatives</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--creatives-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/smaran.jpeg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/smaran.ummadishetty/"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/smarxn"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/smaran-ummadishetty-24905717b/"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Smaran Ummadishetty</h4>
+                                <span>Director of Creatives</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--creatives-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/sadiya.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://www.instagram.com/sadiiiyyyaaa/"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Sadiya Mulla</h4>
+                                <span>Director of Creatives</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--social media-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/raksha.jpeg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/raksha.patel.12139862"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://www.instagram.com/ofcourse.cute/"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/raksha-patel-56773a154"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Raksha Patel</h4>
+                                <span>Director of Social Media</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- zonal co-ordinate-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/sharvary.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/sharvary.rahatade"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://www.instagram.com/iam_sharvary"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Sharvary Rahatde</h4>
+                                <span>Zonal Co-ordinate</span>
+                            </div>
+                        </div>
+                    </div>
+
+
 
 
                 
