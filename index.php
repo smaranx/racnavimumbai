@@ -71,7 +71,7 @@
                       type="submit"
                       id="button-addon2"
                     >
-                      Join Us
+                      <a href="contact.php">Join Us</a>
                     </button>
                   </div>
                 </div>
