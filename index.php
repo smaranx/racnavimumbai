@@ -156,7 +156,7 @@
                 <div class="thurst-pic-text text-center colmd3">
                   <div class="thurst-pic ti-align-center">
                       
-                    <img src="images/ep.png" alt="image" />
+                    <img src="images/ep.png" alt="image" style="width: 100px;height: 100px;" />
                     <!--span class="red ti-crown"></span-->
                   </div>
                   <!-- /img -->
@@ -185,7 +185,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="thurst-pic-text text-center colmd3">
                   <div class="thurst-pic pb80">
-                    <img src="images/edu.png" alt="image" />
+                    <img src="images/edu.png" alt="image" style="width: 100px;height: 100px;" />
                   </div>
                   <!-- /img -->
                   <div class="thurst-text">
@@ -206,7 +206,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="thurst-pic-text text-center colmd3">
                   <div class="thurst-pic pb80">
-                    <img src="images/mh.png" alt="image" />
+                    <img src="images/mh.png" alt="image" style="width: 100px;height: 100px;"/>
                   </div>
                   <!-- /img -->
                   <div class="thurst-text">
@@ -235,7 +235,7 @@
               <div class="col-md-3 col-sm-6">
                 <div class="thurst-pic-text text-center colmd3">
                   <div class="thurst-pic pb80">
-                    <img src="images/br.png" alt="image" />
+                    <img src="images/br.png" alt="image" style="width: 100px;height: 100px;" />
                   </div>
                   <!-- /img -->
                   <div class="thurst-text">

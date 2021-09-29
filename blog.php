@@ -44,6 +44,8 @@
             </lottie-player></center>
           </div>
           <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+          
     <!-- Start of footer section
 	============================================= -->
     <?php

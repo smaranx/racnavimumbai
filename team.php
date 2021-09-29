@@ -711,7 +711,7 @@
            <center> <lottie-player
               src="https://assets7.lottiefiles.com/packages/lf20_jYTS0r.json"
               speed="1"
-              style="width: 1000px; height: 1000px"
+              style="width: 1000px; height: 1000px;"
               loop
               autoplay
             >
