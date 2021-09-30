@@ -2,7 +2,7 @@
 <html lang="zxx">
   <head>
     <meta charset="utf-8" />
-    <title>donate</title>
+    <title>Page Under Construction</title>
     <link rel="shortcut icon" href="" />
 
     <!-- Mobile Specific Meta -->
