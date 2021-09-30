@@ -37,11 +37,12 @@ ul {
 }
 .img-fluid{
     width: 350px;
-    height: 450px;
+    height: 350px;
 }
 .info{
     width: 350px;
 }
+
 .site-heading h2 {
   display: block;
   font-weight: 700;
@@ -197,7 +198,7 @@ ul {
 }
 
 .team-area .info .message a {
-  background: #fff none repeat scroll 0 0;
+  background: #000 none repeat scroll 0 0;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
@@ -231,28 +232,16 @@ ul {
   text-transform: uppercase;
 }
 
-.team-area .social li.twitter a {
+.team-area .social li.facebook a {
   background-color: #00b6f1;
 }
 
-.team-area .social li.pinterest a {
+.team-area .social li.instagram a {
   background-color: #bd081c;
 }
 
-.team-area .social li.facebook a {
+.team-area .social li.linkedin a {
   background-color: #3b5998;
-}
-
-.team-area .social li.google-plus a {
-  background-color: #df4a32;
-}
-
-.team-area .social li.vimeo a {
-  background-color: #1ab7ea;
-}
-
-.team-area .social li.instagram a {
-  background-color: #cd486b;
 }
 </style>
 <!--div id="preloader"></div-->
@@ -362,6 +351,36 @@ ul {
                                 </span>
                                 <h4>Rtr.Shreya Patil</h4>
                                 <span>Jt.Secretary</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--finance director-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/pratiksha.jpeg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/profile.php?id=100005672956630"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/Pratiksha_chavan07"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/pratiksha-chavan"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Pratiksha Chavan</h4>
+                                <span>Director of Finance</span>
                             </div>
                         </div>
                     </div>
@@ -489,7 +508,7 @@ ul {
                     <div class="col-md-4 single-item">
                         <div class="item">
                             <div class="thumb">
-                                <img class="img-fluid" src="images/team/zunaira.jpg" alt="Thumb">
+                                <img class="img-fluid" src="images/team/zunn.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="social">
                                         <ul>
@@ -512,6 +531,36 @@ ul {
                                 </span>
                                 <h4>Rtr.Zunaira Dongre</h4>
                                 <span>TRS Chairwomen</span>
+                            </div>
+                        </div>
+                    </div>
+                     <!--jt.finance-->
+                     <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/abbas.jpeg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://instagram.com/_abbas_niyazi_23_/"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href=#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Abbas Niyazi</h4>
+                                <span>Jt.Finance Dirctor</span>
                             </div>
                         </div>
                     </div>
@@ -545,6 +594,36 @@ ul {
                             </div>
                         </div>
                     </div>
+                    <!--club service-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/rashi.jpeg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://www.instagram.com/singh._.rashi_/"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/rashi-singh-96547b1aa/"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Rashi Singh</h4>
+                                <span>Director of Club Service</span>
+                            </div>
+                        </div>
+                    </div>
                     <!--community service-->
                     <div class="col-md-4 single-item">
                         <div class="item">
@@ -554,7 +633,7 @@ ul {
                                     <div class="social">
                                         <ul>
                                             <li class="facebook">
-                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                                <a href="https://www.facebook.com/profile.php?id=100008043151925"><i class="fab fa-facebook"></i></a>
                                             </li>
                                             <li class="instagram">
                                                 <a href="https://instagram.com/sandhyagupta159?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
@@ -600,7 +679,7 @@ ul {
                                 <span class="message">
                                     <a href="#"><i class="fas fa-envelope-open"></i></a>
                                 </span>
-                                <h4>Rtr.Simran Gupta</h4>
+                                <h4>Rtr.Simran Arora</h4>
                                 <span>Director of Community Services</span>
                             </div>
                         </div>
@@ -609,7 +688,7 @@ ul {
                     <div class="col-md-4 single-item">
                         <div class="item">
                             <div class="thumb">
-                                <img class="img-fluid" src="images/team/sakshi.jpg" alt="Thumb">
+                                <img class="img-fluid" src="images/team/sak.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="social">
                                         <ul>
@@ -631,6 +710,36 @@ ul {
                                     <a href="#"><i class="fas fa-envelope-open"></i></a>
                                 </span>
                                 <h4>Rtr.Sakshi Salekar</h4>
+                                <span>Director of Entrepreneurship Development </span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--ED-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/sonia.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="https://www.facebook.com/profile.php?id=100054237723129"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="https://www.instagram.com/sonia_sharmaa1525/"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="https://www.linkedin.com/in/sonia-sharma-04095a1b6/"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Sonia Sharma</h4>
                                 <span>Director of Entrepreneurship Development </span>
                             </div>
                         </div>
@@ -721,7 +830,7 @@ ul {
                                     <a href="#"><i class="fas fa-envelope-open"></i></a>
                                 </span>
                                 <h4>Rtr.Aditi Mishra</h4>
-                                <span>Director of International<br>Services </span>
+                                <span>Director of International Services</span>
                             </div>
                         </div>
                     </div>
@@ -759,7 +868,7 @@ ul {
                     <div class="col-md-4 single-item">
                         <div class="item">
                             <div class="thumb">
-                                <img class="img-fluid" src="images/team/zen.jpeg" alt="Thumb">
+                                <img class="img-fluid" src="images/team/zenn.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="social">
                                         <ul>
@@ -789,7 +898,7 @@ ul {
                     <div class="col-md-4 single-item">
                         <div class="item">
                             <div class="thumb">
-                                <img class="img-fluid" src="images/team/dang.jpg" alt="Thumb">
+                                <img class="img-fluid" src="images/team/dangg.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="social">
                                         <ul>
@@ -815,11 +924,41 @@ ul {
                             </div>
                         </div>
                     </div>
+                    <!--prm-->
+                    <div class="col-md-4 single-item">
+                        <div class="item">
+                            <div class="thumb">
+                                <img class="img-fluid" src="images/team/riddhi.jpg" alt="Thumb">
+                                <div class="overlay">
+                                    <div class="social">
+                                        <ul>
+                                            <li class="facebook">
+                                                <a href="#"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="instagram">
+                                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="linkedin">
+                                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info">
+                                <span class="message">
+                                    <a href="#"><i class="fas fa-envelope-open"></i></a>
+                                </span>
+                                <h4>Rtr.Riddhi Galaiya</h4>
+                                <span>Director of PR & Marketing</span>
+                            </div>
+                        </div>
+                    </div>
                     <!--editorials-->
                     <div class="col-md-4 single-item">
                         <div class="item">
                             <div class="thumb">
-                                <img class="img-fluid" src="images/team/adeeba.jpg" alt="Thumb">
+                                <img class="img-fluid" src="images/team/ade.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="social">
                                         <ul>
@@ -879,7 +1018,7 @@ ul {
                     <div class="col-md-4 single-item">
                         <div class="item">
                             <div class="thumb">
-                                <img class="img-fluid" src="images/team/krishna.jpg" alt="Thumb">
+                                <img class="img-fluid" src="images/team/krish.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="social">
                                         <ul>
@@ -909,7 +1048,7 @@ ul {
                     <div class="col-md-4 single-item">
                         <div class="item">
                             <div class="thumb">
-                                <img class="img-fluid" src="images/team/smaran.jpeg" alt="Thumb">
+                                <img class="img-fluid" src="images/team/smarn.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="social">
                                         <ul>
@@ -939,7 +1078,7 @@ ul {
                     <div class="col-md-4 single-item">
                         <div class="item">
                             <div class="thumb">
-                                <img class="img-fluid" src="images/team/sadiya.jpg" alt="Thumb">
+                                <img class="img-fluid" src="images/team/sadi.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="social">
                                         <ul>
@@ -1021,7 +1160,7 @@ ul {
                                     <a href="#"><i class="fas fa-envelope-open"></i></a>
                                 </span>
                                 <h4>Rtr.Sharvary Rahatde</h4>
-                                <span>Zonal Co-ordinate</span>
+                                <span>Zonal Co-ordinator</span>
                             </div>
                         </div>
                     </div>
