@@ -16,18 +16,11 @@
       type="text/css"
       href="assets/css/bootstrap.min.css"
     />
-    <!-- animate.css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
-    <!-- menu style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
-    <!-- style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
-    <!-- responsive.css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+
   </head>
   <!-- /end of head -->
-
   <body>
+
     <?php
      include("nav.php"); 
     ?>
@@ -37,15 +30,15 @@
            <center> <lottie-player
               src="https://assets7.lottiefiles.com/packages/lf20_jYTS0r.json"
               speed="1"
-              style="width: 1000px; height: 1000px"
+              style="width: 500px; height: 500px"
               loop
               autoplay
             >
             </lottie-player></center>
-          </div>
-          <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <!-- Start of footer section
-	============================================= -->
+  </div>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  
+  
     <?php
      include("footer.php"); 
     ?> 
@@ -55,60 +48,5 @@
     <!-- js -->
     <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-    <script
-      type="text/javascript"
-      src="assets/js/jquery.magnific-popup.min.js"
-    ></script>
-    <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
-    <script
-      type="text/javascript"
-      src="assets/js/jquery.counterup.min.js"
-    ></script>
-    <script type="text/javascript" src="assets/js/parallax.min.js"></script>
-    <script type="text/javascript" src="assets/js/wow.min.js"></script>
-    <script type="text/javascript">
-      new WOW().init();
-    </script>
-    <script type="text/javascript" src="assets/js/circle-progress.js"></script>
-    <!-- REVOLUTION JS FILES -->
-    <script
-      type="text/javascript"
-      src="rev-slider/js/jquery.themepunch.tools.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="rev-slider/js/jquery.themepunch.revolution.min.js"
-    ></script>
-
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS (Load Extensions only on Local File Systems !
-    The following part can be removed on Server for On Demand Loading) -->
-
-    <script
-      type="text/javascript"
-      src="rev-slider/js/revolution.extension.actions.min.js"
-    ></script>
-
-    <script
-      type="text/javascript"
-      src="rev-slider/js/revolution.extension.layeranimation.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="rev-slider/js/revolution.extension.navigation.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="rev-slider/js/revolution.extension.parallax.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="rev-slider/js/revolution.extension.slideanims.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="rev-slider/js/revolution.extension.video.min.js"
-    ></script>
-    <script type="text/javascript" src="assets/js/function.js"></script>
   </body>
 </html>

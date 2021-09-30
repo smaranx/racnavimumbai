@@ -128,7 +128,7 @@
                     </ul-->
                   </li>
                   <li>
-                    <a href="blog.php">Blog</a>
+                    <a href="working.php">Blog</a>
                     <!--ul class="menu-dropdown">
                       <li><a href="blog-archive.html">Blog Archive</a></li>
                       <li><a href="blog-single.html">Blog Details</a></li>
@@ -146,7 +146,7 @@
               </div>
               <!-- /.navbar-collapse -->
               <div class="home-donate donate-btn-1 text-uppercase">
-                <a href="donate.php">donate now</a>
+                <a href="working.php">donate now</a>
               </div>
               <!--div id="sb-search" class="sb-search">
                     
