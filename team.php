@@ -380,7 +380,7 @@ ul {
                                     <a href="#"><i class="fas fa-envelope-open"></i></a>
                                 </span>
                                 <h4>Rtr.Pratiksha Chavan</h4>
-                                <span>Director of Finance</span>
+                                <span>Chairwomen Finance</span>
                             </div>
                         </div>
                     </div>
@@ -658,7 +658,7 @@ ul {
                     <div class="col-md-4 single-item">
                         <div class="item">
                             <div class="thumb">
-                                <img class="img-fluid" src="images/team/simran.jpg" alt="Thumb">
+                                <img class="img-fluid" src="images/team/simrn.jpg" alt="Thumb">
                                 <div class="overlay">
                                     <div class="social">
                                         <ul>
