@@ -30,6 +30,8 @@
       type="text/css"
       href="rev-slider/css/navigation.css"
     />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- menu style -->
     <link rel="stylesheet" type="text/css" href="assets/css/menu.css" />
     <!-- style -->

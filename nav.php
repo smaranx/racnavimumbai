@@ -200,4 +200,54 @@
       </div>
       <!--/menu-bar  -->
     </header>
+     <!-- js -->
+     <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jquery.magnific-popup.min.js"
+    ></script>
+    <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+    <script
+      type="text/javascript"
+      src="assets/js/jquery.counterup.min.js"
+    ></script>
+    <script type="text/javascript" src="assets/js/countdown.js"></script>
+    <script type="text/javascript" src="assets/js/parallax.min.js"></script>
+    <script type="text/javascript" src="assets/js/circle-progress.js"></script>
+
+    <!-- REVOLUTION JS FILES -->
+    <script
+      type="text/javascript"
+      src="rev-slider/js/jquery.themepunch.tools.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="rev-slider/js/jquery.themepunch.revolution.min.js"
+    ></script>
+
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS (Load Extensions only on Local File Systems !
+    The following part can be removed on Server for On Demand Loading) -->
+
+    <script
+      type="text/javascript"
+      src="rev-slider/js/revolution.extension.actions.min.js"
+    ></script>
+
+    <script
+      type="text/javascript"
+      src="rev-slider/js/revolution.extension.layeranimation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="rev-slider/js/revolution.extension.navigation.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="rev-slider/js/revolution.extension.parallax.min.js"
+    ></script>
+
+    <script type="text/javascript" src="assets/js/function.js"></script>
+
   </body>
