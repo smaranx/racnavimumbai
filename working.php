@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Page Under Construction</title>
-    <link rel="shortcut icon" href="" />
+    <link rel="shortcut icon" href="images/roundLogo.png" />
 
     <!-- Mobile Specific Meta -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />

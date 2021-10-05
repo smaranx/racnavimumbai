@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Team 2021-22</title>
-	<link rel="shortcut icon" href="images/rcnbLogoWhite.png">
+	<link rel="shortcut icon" href="images/roundLogo.png">
 
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
