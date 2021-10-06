@@ -107,13 +107,13 @@
             <h2>ABOUT US</h2>
           </div>
         </div>
-        <div class="col-md-6 p-0 text-center">
+        <div class="col p-0 text-center">
           <div class="col-md-5 col-lg-6 ti-align-left ml-auto">
             <lottie-player
               src="https://assets10.lottiefiles.com/packages/lf20_muv2oalu.json"
               background="transparent"
               speed="1"
-              style="width: 600px; height: 300px"
+              style="width: 500px; height: 500px"
               loop
               autoplay
             >
@@ -121,7 +121,8 @@
           </div>
         </div>
         <div class="col-md-6 p-4 p-sm-5">
-          <p class="text-secondary" style="line-height: 2; width: 400px">
+          <p class="text-secondary" style="line-height: 2; width: 500px; font:large;  ">
+          <br><br><br><BR><br>
             <b>Rotaract Club of Navi Mumbai</b> is a 40-year-old community-based
             Rotaract club with its center in Vashi. It is the oldest club in
             Zone 1, District 3142. Rotaract Club of New Bombay has spearheaded
