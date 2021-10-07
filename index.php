@@ -22,8 +22,6 @@
       type="text/css"
       href="assets/css/themify-icons.css"
     />
-    <!-- animate.css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
     <!-- REVOLUTION NAVIGATION STYLES -->
     <link
       rel="stylesheet"
