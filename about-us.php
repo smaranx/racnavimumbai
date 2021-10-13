@@ -16,14 +16,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/themify-icons.css">
 	<!-- animate.css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/animate.css">
-	<!-- REVOLUTION STYLE SHEETS -->
-	<link rel="stylesheet" type="text/css" href="rev-slider/css/settings.css">
-	<!-- REVOLUTION LAYERS STYLES -->
-	<link rel="stylesheet" type="text/css" href="rev-slider/css/layers.css">
 	<!-- REVOLUTION NAVIGATION STYLES -->
 	<link rel="stylesheet" type="text/css" href="rev-slider/css/navigation.css">
-	<!-- menu style -->
-	<link rel="stylesheet" type="text/css" href="assets/css/menu.css">
 	<!-- style -->
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<!-- responsive.css -->
