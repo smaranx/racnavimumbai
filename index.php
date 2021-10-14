@@ -137,7 +137,7 @@
 
     <!-- Start of thurst
 	============================================= -->
-    <section id="thurst" class="thurst-section">
+    <section id="services" class="text-center">
       <div class="container">
           <div class="section-title text-center">
             <div class="section-title-text text-uppercase text-center">
@@ -147,26 +147,21 @@
               <h2>Thrust Areas</h2>
             </div>
           </div>
-          <section id="services" class="text-center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
                       
                         <div class="col-md-4 wp2">
-                            <div class="icon"><i class="fa fa-laptop"></i></div>
-                            <h3>Design</h3>
-                            <p>Design isn't just what a product looks like and feels like on the outside. Design encompasses the internal functionality of a product as well as the overall user experience. I strive to design interfaces and experiences that people can enjoy on all digital mediums.
-                            </p>
+                            <div class="icon"><i class="fa fa-book"></i></div>
+                            <h3>Education</h3>
                         </div>
                         <div class="col-md-4 wp2 delay-025s">
-                            <div class="icon"><i class="fa fa-code"></i></div>
-                            <h3>Development</h3>
-                            <p>With a strong foundation in computer science, I'm passionate about web design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.</p>
+                            <div class="icon"><i class="fa fa-earth"></i></div>
+                            <h3>Environment Protection</h3>
                         </div>
                         <div class="col-md-4 wp2 delay-05s">
-                            <div class="icon"><i class="fa fa-lightbulb-o"></i></div>
-                            <h3>Involvement</h3>
-                            <p>At DMCE, I'm currently a part of web development team responsible for designing, developing and maintaining the official website of <a href="http://dmce.ac.in" target="_blank">DMCE</a>. Previously, I've been involved with the media team, techinal team and the graphic desiging team of the local CSI student club which conducts techinal & non-technical events around the campus.</p>
+                            <div class="icon"><i class="fa fa-brain"></i></div>
+                            <h3>Mental Health</h3>
                         </div>
                     </div>
                 </div>
