@@ -611,7 +611,7 @@
                 </div>
             </div>
         </div>
-        <!-- Feedback Loop MODAL -->
+        <!-- sashakth MODAL -->
         <div class="modal fade" id="feedbackLoopModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -632,8 +632,8 @@
                 </div>
             </div>
         </div>
-        <!-- Web Dev Homepage MODAL -->
-        <div class="modal fade" id="webdevModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
+        <!-- gullak MODAL -->
+        <div class="modal fade" id="feedbackLoopModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -645,9 +645,8 @@
                         <p>
                             <img class="img-responsive img-centered" src="images/events/gullak.jpg" alt="">
                         </p>
-                        <p class="modal-description">Project description</p>
+                        <p class="modal-description">Project Description</p>
                         <Br>
-                    </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
@@ -655,7 +654,7 @@
             </div>
         </div>
         <!-- u are enough MODAL -->
-        <div class="modal fade" id="fontipsumsModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
+        <div class="modal fade" id="feedbackLoopModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -665,18 +664,18 @@
                     </div>
                     <div class="modal-body">
                         <p>
-                            <img class="img-responsive img-centered" src="img/fontipsums.png" alt="">
+                            <img class="img-responsive img-centered" src="images/events/you.jpg" alt="">
                         </p>
                         <p class="modal-description">Project Description</p>
-                    </div>
+                        <Br>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- nuWiT MODAL -->
-        <div class="modal fade" id="nuwitModal" tabindex="-1" role="dialog" aria-labelledby="nuwitModal" aria-hidden="true">
+        <!-- atmanirbhar MODAL -->
+        <div class="modal fade" id="feedbackLoopModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -689,15 +688,16 @@
                             <img class="img-responsive img-centered" src="images/events/atmanirbhar.jpg" alt="">
                         </p>
                         <p class="modal-description">Project Description</p>
-                    </div>
+                        <Br>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- ONE CARD FOR ALL MODAL -->
-        <div class="modal fade" id="oneCardForAllModal" tabindex="-1" role="dialog" aria-labelledby="oneCardForAllModal" aria-hidden="true">
+        
+        <!-- pariposhay MODAL -->
+        <div class="modal fade" id="feedbackLoopModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -707,45 +707,45 @@
                     </div>
                     <div class="modal-body">
                         <p>
-                            <img class="img-responsive img-centered" src="images/events/pari.JPG" alt="">
+                            <img class="img-responsive img-centered" src="images/events/pari.jpg" alt="">
                         </p>
-                        <p class="modal-description">Project description</p>
-                        <br>
-                    </div>
+                        <p class="modal-description">Project Description</p>
+                        <Br>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- MED MIL MODAL -->
-        <div class="modal fade" id="medMilModal" tabindex="-1" role="dialog" aria-labelledby="medMilModal" aria-hidden="true">
+        <!-- eco friendly MODAL -->
+        <div class="modal fade" id="feedbackLoopModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Eco=Friendly Ganesha</h4>
+                        <h4 class="modal-title">Eco Friendly Ganesha</h4>
                         <h6 class="modal-title-description">Date</h6>
                     </div>
                     <div class="modal-body">
                         <p>
-                            <img class="img-responsive img-centered" src="images/events/em.JPG" alt="">
+                            <img class="img-responsive img-centered" src="images/events/eco.jpg" alt="">
                         </p>
                         <p class="modal-description">Project Description</p>
-                    </div>
+                        <Br>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- HUMANKINDA MODAL -->
-        <div class="modal fade" id="humankindaModal" tabindex="-1" role="dialog" aria-labelledby="mullen_comModal" aria-hidden="true">
+        
+        <!-- speaker session MODAL -->
+        <div class="modal fade" id="feedbackLoopModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title">Speaker session</h4>
+                        <h4 class="modal-title">Speaker Session</h4>
                         <h6 class="modal-title-description">Date</h6>
                     </div>
                     <div class="modal-body">
@@ -753,15 +753,16 @@
                             <img class="img-responsive img-centered" src="images/events/dr.JPG" alt="">
                         </p>
                         <p class="modal-description">Project Description</p>
-                    </div>
+                        <Br>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- US CELLULAR MODAL -->
-        <div class="modal fade" id="uscModal" tabindex="-1" role="dialog" aria-labelledby="uscModal" aria-hidden="true">
+       
+        <!-- identity MODAL -->
+        <div class="modal fade" id="feedbackLoopModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -773,15 +774,15 @@
                         <p>
                             <img class="img-responsive img-centered" src="images/events/homobusters.jpeg" alt="">
                         </p>
-                        <p class="modal-description">Project Description
-                        </p>
-                    </div>
+                        <p class="modal-description">Project Description</p>
+                        <Br>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
         </div>
+        
 
   <?php
      include("footer.php"); 
