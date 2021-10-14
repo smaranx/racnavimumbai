@@ -446,7 +446,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-12">
-                                <h2>For the one's in need</h2>
+                                <h2>For the one's in need</h2><br>
                                 <div id="donate-button">
                                     <a class="donate-btn wp4" href="donate.php" target="_blank">Donate</a>
                                 </div>
@@ -465,6 +465,7 @@
     ?> 
 
     <!-- js -->
+    <script type="text/javascript" src="assets/js/custom.js"></script>
     <script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
