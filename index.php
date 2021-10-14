@@ -139,7 +139,6 @@
 	============================================= -->
     <section id="thurst" class="thurst-section">
       <div class="container">
-        <div class="row section-content">
           <div class="section-title text-center">
             <div class="section-title-text text-uppercase text-center">
               <p>HAVE A LOOK at our</p>
@@ -148,7 +147,33 @@
               <h2>Thrust Areas</h2>
             </div>
           </div>
-          <!-- /section-title -->
+          <section id="services" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                      
+                        <div class="col-md-4 wp2">
+                            <div class="icon"><i class="fa fa-laptop"></i></div>
+                            <h3>Design</h3>
+                            <p>Design isn't just what a product looks like and feels like on the outside. Design encompasses the internal functionality of a product as well as the overall user experience. I strive to design interfaces and experiences that people can enjoy on all digital mediums.
+                            </p>
+                        </div>
+                        <div class="col-md-4 wp2 delay-025s">
+                            <div class="icon"><i class="fa fa-code"></i></div>
+                            <h3>Development</h3>
+                            <p>With a strong foundation in computer science, I'm passionate about web design and development, and interested in mobile app development. As I grow as a developer, I hope to write clean, readable code that can be used by others and leveraged to create beautiful software.</p>
+                        </div>
+                        <div class="col-md-4 wp2 delay-05s">
+                            <div class="icon"><i class="fa fa-lightbulb-o"></i></div>
+                            <h3>Involvement</h3>
+                            <p>At DMCE, I'm currently a part of web development team responsible for designing, developing and maintaining the official website of <a href="http://dmce.ac.in" target="_blank">DMCE</a>. Previously, I've been involved with the media team, techinal team and the graphic desiging team of the local CSI student club which conducts techinal & non-technical events around the campus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+          <!-- /section-title
           <div class="thurst-section-content">
             <div class="row">
               <div class="col-md-3 col-sm-6">
@@ -156,15 +181,15 @@
                   <div class="thurst-pic ti-align-center">
                       
                     <img src="images/ep.png" alt="image" style="width: 100px;height: 100px;" />
-                    <!--span class="red ti-crown"></span-->
+                    <!-span class="red ti-crown"></span->
                   </div>
-                  <!-- /img -->
+                  <!- /img ->
                   <div class="thurst-text">
                     <div class="thurst-head text-uppercase">
                       <h2 class="black" style="padding-top: 50px;">ENVIRONMENT PROTECTION</h2>
                     </div>
                   </div>
-                  <!-- /text --->
+                  <!- /text --->
                   <!--div class="hover-content">
                     <div class="thurst-text-content">
                       <p>
@@ -176,23 +201,23 @@
                         cause.
                       </p>
                     </div>
-                  </!--div-->
+                  </!--div->
                 </div>
               </div>
-              <!-- /col-sm-3 -->
+              <!- /col-sm-3 ->
 
               <div class="col-md-3 col-sm-6">
                 <div class="thurst-pic-text text-center colmd3">
                   <div class="thurst-pic pb80">
                     <img src="images/edu.png" alt="image" style="width: 100px;height: 100px;" />
                   </div>
-                  <!-- /img -->
+                  <!- /img ->
                   <div class="thurst-text">
                     <div class="thurst-head text-uppercase">
                       <h2 class="black">EDUCATION</h2>
                     </div>
                   </div>
-                  <!-- /text -->
+                  <!- /text ->
                   <div class="hover-content">
                     <div class="thurst-text-content pb20">
                       <p></p>
@@ -200,23 +225,23 @@
                   </div>
                 </div>
               </div>
-              <!-- /col-sm-3 -->
+              <-- /col-sm-3 ->
 
               <div class="col-md-3 col-sm-6">
                 <div class="thurst-pic-text text-center colmd3">
                   <div class="thurst-pic pb80">
                     <img src="images/mh.png" alt="image" style="width: 100px;height: 100px;"/>
                   </div>
-                  <!-- /img -->
+                  <!- /img ->
                   <div class="thurst-text">
                     <div class="thurst-head text-uppercase">
                       <h2 class="black">MENTAL HEALTH AWARENESS</h2>
                     </div>
                   </div>
-                  <!-- /text -->
+                  <!- /text ->
                   <div class="hover-content">
                     <div class="thurst-text-content pb20">
-                      <!--p>
+                      <!-p>
                         There is no health without mental health. Your mental
                         health matters and we, here at Rotaract club of Navi
                         Mumbai, strongly advocate for it. We, the change makers
@@ -224,28 +249,28 @@
                         denying the stereotypes associated with disorders and
                         treatments. Help us make the world a safe space to talk,
                         to seek help and empathise.
-                      </!--p-->
+                      </!--p->
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- /col-sm-3 -->
+              <-- /col-sm-3 >
 
               <div class="col-md-3 col-sm-6">
                 <div class="thurst-pic-text text-center colmd3">
                   <div class="thurst-pic pb80">
                     <img src="images/br.png" alt="image" style="width: 100px;height: 100px;" />
                   </div>
-                  <!-- /img -->
+                  <!- /img ->
                   <div class="thurst-text">
                     <div class="thurst-head text-uppercase">
                       <h2 class="black">Branding Rotaract</h2>
                     </div>
                   </div>
-                  <!-- /text -->
+                  <!- /text ->
                   <div class="hover-content">
                     <div class="thurst-text-content pb20">
-                      <!--p>
+                      <!-p>
                         Rotaract club of Navi Mumbai is a part of one of the
                         largest youth organisations. Taking strides towards
                         being a credible brand and increasing our brand value is
@@ -254,14 +279,14 @@
                         welcome all brands, big or small to join us and help us
                         create the change we wish to. Partnership is our strong
                         suit!
-                      </!--p-->
+                      </!--p->
                     </div>
                   </div>
                 </div>
               </div>
-              <!-- /col-sm-3 -->
+              <!- /col-sm-3 -->
             </div>
-          </div>
+          <!--</div -->
           <!-- /thurst-section-content -->
         </div>
         <!-- /row-->
