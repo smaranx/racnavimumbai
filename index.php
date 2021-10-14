@@ -156,11 +156,11 @@
                             <h3>Education</h3>
                         </div>
                         <div class="col-md-4 wp2 delay-025s">
-                            <div class="icon"><i class="fa fa-earth"></i></div>
+                            <div class="icon"><i class="fa fa-globe"></i></div>
                             <h3>Environment Protection</h3>
                         </div>
                         <div class="col-md-4 wp2 delay-05s">
-                            <div class="icon"><i class="fa fa-brain"></i></div>
+                            <div class="icon"><i class="fas fa-brain"></i></div>
                             <h3>Mental Health</h3>
                         </div>
                     </div>
