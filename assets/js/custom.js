@@ -3,3 +3,9 @@ $('.wp4').waypoint(function() {
 }, {
     offset: '75%'
 });
+/* Portfolio */
+	$('.wp5').waypoint(function() {
+		$('.wp5').addClass('animated fadeIn');
+	}, {
+		offset: '75%'
+	});

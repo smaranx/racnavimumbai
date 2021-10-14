@@ -458,7 +458,330 @@
                 </div>
             </div>
         </section>
-        <!-- /Section: Resume -->
+        <!-- /Section: donation -->
+  <!--What i have done-->
+   <!-- Section: Portfolio -->
+   <section id="portfolio">
+            <div class="container">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">What We've Done</h2>
+                    <h5 class="coming-soon">(more coming soon)</h5>
+                </div>
+                <div class="row portfolio-row">
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#courseSourceModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="images/events/eco.JPG" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Eco-Friendly Ganesha Workshop</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#feedbackLoopModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="images/events/sus.JPG" alt="image">
+                            <div class="portfolio-info">
+                                <h3>SaSakth</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#webdevModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="images/events/gullak.jpg" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Gullak for a Smile</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#fontipsumsModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="images/events/you.jpg" alt="image">
+                            <div class="portfolio-info">
+                                <h3>You are Enough</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#nuwitModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="images/events/atmanirbhar.jpg" alt="image">
+                            <div class="portfolio-info">
+                                <h3>AtmaNirbhar BoD</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#oneCardForAllModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="images/events/pari.JPG" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Parposhay</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#medMilModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="images/events/em.JPG" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Eco-friendly Ganesha</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#humankindaModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="images/events/dr.JPG" alt="image">
+                            <div class="portfolio-info">
+                                <h3>Speaker session</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item-wrapper wp5">
+                        <div class="portfolio-item" data-toggle="modal" href="#uscModal">
+                            <div class="portfolio-overlay"></div>
+                            <div class="links">
+                                <a class="image-link"><i class="fa fa-search-plus"></i></a>
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                            </div>
+                            <img src="images/events/homobusters.jpeg" alt="image">
+                            <div class="portfolio-info">
+                                <h3>HomoBusters</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--************************** PORTFOLIO MODALS **************************-->
+        <!-- CourseSource MODAL -->
+        <div class="modal fade" id="courseSourceModal" tabindex="-1" role="dialog" aria-labelledby="courseSourceModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Eco-Friendly Ganesha Idol Making Workshop</h4>
+                        <h6 class="modal-title-description">Date</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="images/events/eco.JPG" alt="">
+                        </p>
+                        <p class="modal-description">Project Description</p>
+                        <!--p class="visit"><a href="http://dmce.ac.in" target="_blank" id="visit-btn">Visit Site</a> or <a href="https://github.com/bchiang7/WebDevSpring2016/tree/master/public/project" target="_blank" id="visit-btn">View Source</a></!--p-->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feedback Loop MODAL -->
+        <div class="modal fade" id="feedbackLoopModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">SaShakth</h4>
+                        <h6 class="modal-title-description">Date</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="images/events/sus.jpg" alt="">
+                        </p>
+                        <p class="modal-description">Project Description</p>
+                        <Br>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Web Dev Homepage MODAL -->
+        <div class="modal fade" id="webdevModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Gullak for a Smile</h4>
+                        <h6 class="modal-title-description">Date</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="images/events/gullak.jpg" alt="">
+                        </p>
+                        <p class="modal-description">Project description</p>
+                        <Br>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- u are enough MODAL -->
+        <div class="modal fade" id="fontipsumsModal" tabindex="-1" role="dialog" aria-labelledby="fontipsumsModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">You are Enough</h4>
+                        <h6 class="modal-title-description">Date</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="img/fontipsums.png" alt="">
+                        </p>
+                        <p class="modal-description">Project Description</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- nuWiT MODAL -->
+        <div class="modal fade" id="nuwitModal" tabindex="-1" role="dialog" aria-labelledby="nuwitModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">AtmaNirbhar BoD</h4>
+                        <h6 class="modal-title-description">Date</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="images/events/atmanirbhar.jpg" alt="">
+                        </p>
+                        <p class="modal-description">Project Description</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ONE CARD FOR ALL MODAL -->
+        <div class="modal fade" id="oneCardForAllModal" tabindex="-1" role="dialog" aria-labelledby="oneCardForAllModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Pariposhay</h4>
+                        <h6 class="modal-title-description">Date</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="images/events/pari.JPG" alt="">
+                        </p>
+                        <p class="modal-description">Project description</p>
+                        <br>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MED MIL MODAL -->
+        <div class="modal fade" id="medMilModal" tabindex="-1" role="dialog" aria-labelledby="medMilModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Eco=Friendly Ganesha</h4>
+                        <h6 class="modal-title-description">Date</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="images/events/em.JPG" alt="">
+                        </p>
+                        <p class="modal-description">Project Description</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- HUMANKINDA MODAL -->
+        <div class="modal fade" id="humankindaModal" tabindex="-1" role="dialog" aria-labelledby="mullen_comModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Speaker session</h4>
+                        <h6 class="modal-title-description">Date</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="images/events/dr.JPG" alt="">
+                        </p>
+                        <p class="modal-description">Project Description</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- US CELLULAR MODAL -->
+        <div class="modal fade" id="uscModal" tabindex="-1" role="dialog" aria-labelledby="uscModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Identity</h4>
+                        <h6 class="modal-title-description">Date</h6>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            <img class="img-responsive img-centered" src="images/events/homobusters.jpeg" alt="">
+                        </p>
+                        <p class="modal-description">Project Description
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
   <?php
      include("footer.php"); 
