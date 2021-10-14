@@ -448,7 +448,7 @@
                             <div class="col-md-12">
                                 <h2>For the one's in need</h2>
                                 <div id="donate-button">
-                                    <a class="donate-btn wp4" href="donate.php" target="_blank">Donate Us!</a>
+                                    <a class="donate-btn wp4" href="donate.php" target="_blank">Donate</a>
                                 </div>
                             </div>
                         </div>
