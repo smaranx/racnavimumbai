@@ -290,9 +290,6 @@
     </section>
     <!-- End of thurst areas
 	============================================= -->
-
- 
-
     <!-- Start of can we do section 
 	============================================= -->
     <section id="can-we-do" class="can-we-do-section">
@@ -442,6 +439,27 @@
     </section>
     <!-- End of can we do section 
 	============================================= -->
+        <!-- Section: donation -->
+        <section id="donation">
+            <div class="text-center">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>For the one's in need</h2>
+                                <div id="donate-button">
+                                    <a class="donate-btn wp4" href="donate.php" target="_blank">Donate Us!</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- row -->
+                    </div>
+                    <!-- container -->
+                </div>
+            </div>
+        </section>
+        <!-- /Section: Resume -->
+
   <?php
      include("footer.php"); 
     ?> 
