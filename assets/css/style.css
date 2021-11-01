@@ -407,6 +407,10 @@ div#preloader {
 }
 
 @media (max-width: 320px) {
+  .lottie {
+    width: 250px;
+    height: 250px;
+  }
   #banner1 .btn-sub {
     padding: 0 10px;
   }
